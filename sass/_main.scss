@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -ms-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+
+  @media (max-width: 991px) {
+    font-size: 85%;
+  }
+  @media (max-width: 541px) {
+    font-size: 80%;
+  }
+}
+
+body{
+  font-family:'poppins' , 'Cairo';
+   
+}
+h1,h2,h3,h4{
+  font-family: 'arkan';
+}
+
+.icons{
+  z-index: 10;
+  img{
+    width:80%;
+    padding: .3rem;
+  }
+}
+header{
+  background-image: url(../img/pattern.png);
+  background-size: cover;
+}
+
+////////// home section //////////
+#home{
+  height: 40rem;
+  background-image: url(../img/Dar-almashaer-home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  //background-position: center;
+  @media (max-width: 700px) {
+    background-size: 100%;
+    height:15.5rem;
+  }
+  h2{
+    font-size: 4.5rem;
+  }
+
+  .contact{
+    width:33%;
+   // height: 90%;
+    position: absolute;
+    top: 24%;
+    right:12% ;
+    h3{
+      font-size: 3rem;
+    }
+    h4{
+      font-size:3rem;
+    }
+  }
+  
+}
+
+///////////////// about //////////
+
+#about{
+  // .content{
+  //   justify-content: center;
+  //   width:77%;
+  // }
+  h1{
+    font-size:4rem;
+  }
+  .title{
+    letter-spacing: 3px;
+  }
+  p{
+  //  font-family: 'almashaer';
+    span{
+      color: $primary;
+    }
+  }
+}
+
+
+////////// services section ///////////////
+
+#services{
+  img{
+    width:55%;
+  }
+  p{
+    padding:0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}
+
+///////////// contact /////////////
+
+#contact{
+  .telephone{
+    font-size:3.73rem;
+  }
+}
+
+//////// footer ///////
+#footer{
+  background-image: url(../img/pattern.png);
+  background-size: cover;
+  .fab{
+    padding:.9rem;
+    color:white;
+    &:hover{
+      color:$dark;
+    }
+  }
+  .col-md-3:not(:last-of-type){
+    border-left: white solid 1px;
+    @media (max-width: 541px) {
+    border: none;
+  }
+  }
+  .nav-link{
+    color:white;
+    &:hover{
+      color:$dark;
+    }
+
+  }
+}

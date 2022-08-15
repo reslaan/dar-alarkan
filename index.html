@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Reslaan</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link href="/css/lity.min.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106594724-1"></script>
+  </head>
+
+  <body class="position-relative">
+    <div class="icons flex-column d-flex  top-50 position-fixed">
+      <a href="#contact">
+        <img src="img/from button.svg" alt="">
+      </a>
+      <a href="tel:8001233333">
+        <img src="img/phone-button.svg" alt="">
+      </a>
+      <a onclick="topFunction()" href="#" >
+        <img src="img/up-button.svg" alt="">
+      </a>
+      
+      
+      
+    </div>
+    <header class="py-4">
+      <div class="container text-white">
+        <div class="row text-center justify-content-center">
+          <div class="col-4 border-start">
+            <h1><img class="img-fluid" src="img/Dar Al Arkan.svg" alt=""></h1>
+          </div>
+
+          <div class="col-4">
+            <h1><img class="img-fluid" src="img/Dar Al Mashaer.svg" alt=""></h1>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main  -->
+    <main>
+      <!-- hoem section -->
+      <section id="home" class="p-md-5 position-relative">
+        <div class="container py-4 h-100">
+          <div class="row flex-row-reverse h-100">
+            <div class="col-lg-6 p-lg-5 align-self-end text-center">
+              <!-- <h2 class="m-3" >روعة العيش <br>  بجوار الحرم</h2> -->
+              <a href="#myModal"  data-bs-toggle="modal" class="nav-link text-white fs-4 me-lg-5 pe-lg-5"
+                ><i class=" "> <img src="img/Play button.svg" alt=""></i> اضغط هنا لمشاهدة
+                الفيديو</a
+              >
+            </div>
+            <div
+              
+              class="contact
+                col-4
+                bg-white
+                text-center
+                rounded
+                py-3
+                px-5
+                rounded-0
+                shadow-lg
+                d-none d-lg-block
+              "
+            >
+              <h3 class="h5 my-4">سجلّ اهتمامك</h3>
+              <form action="https://formspree.io" method="POST">
+                <div class="row row-cols-1 g-5 justify-content-center">
+                  <div class="col">
+                    <input
+                      class="
+                        form-control
+                        border-0 border-bottom border-secondary
+                        rounded-0
+                      "
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="الإسم"
+                      required
+                    />
+                  </div>
+                  <div class="col">
+                    <input
+                      class="
+                        form-control
+                        border-0 border-bottom border-secondary
+                        rounded-0
+                      "
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="البريد لإلكتروني"
+                      required
+                    />
+                  </div>
+                  <div class="col mb-5">
+                    <input
+                      class="
+                        form-control
+                        border-0 border-bottom border-secondary
+                        rounded-0
+                      "
+                      type="text"
+                      id="phone"
+                      name="phone"
+                      placeholder="رقم التواصل"
+                      required
+                    />
+                  </div>
+                  <button
+                    class="
+                      btn btn-primary
+                      mt-2
+                      text-light
+                      w-75
+                      my-5
+                      rounded-0
+                      mt-3
+                    "
+                    type="submit"
+                  >
+                    <h4>احجز الآن</h4>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe id="video" width="100%" height="315" src="https://www.youtube.com/embed/nm1Pvi-dm9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </div>
+</div>
+      <!-- about section -->
+      <section id="about" class="py-5">
+        <div class="container-fluid py-5 px-5">
+          <div class="row py-5 justify-content-center g-4">
+            <div class="col-md-4">
+              <div class="w-75 content m-auto ">
+                <div class="text-center">
+                  <h1 class="text-primary "><img class="img-fluid" src="img/Dar Al Mashaer Logo.svg" alt=""></h1>
+                </div>
+
+                <p class="fs-5 ">
+                  يتكون مشروع دار المشاعر من
+                  <span> 7 أبراج</span>
+                  تضم<span> شقق سكنية حديثة </span>بالإضافة إلى وحدات
+                  <span> "سكاي فيلا"</span> مع مسبح خاص صمن مجمع متكامل بخدماته
+                  ومرافقه العصرية.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 pe-md-5 h-100">
+              <img
+                class="img-fluid"
+                src="img/Dar-almashaer-bulging.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- location section -->
+      <section id="location" class="my-5">
+        <img class="img-fluid w-100" src="/img/Location.png" alt="" />
+      </section>
+
+      <!-- services section -->
+
+      <section id="services" class="py-3">
+        <div class="container text-center">
+          <h2 class="text-primary mb-4">مرافق استثنائية تحيط بك</h2>
+          <div class="row row-cols-2 row-cols-md-3 g-3">
+            <div class="col">
+              <img src="img/Reception Icon.svg" alt="" />
+              <p>ردهة استقبال</p>
+            </div>
+            <div class="col">
+              <img src="img/Mosque Icon.svg" alt="" />
+              <p>مسجد متنقل</p>
+            </div>
+            <div class="col">
+              <img src="img/Bus Icon.svg" alt="" />
+              <p>حافلات خاصة</p>
+            </div>
+            <div class="col">
+              <img src="img/Gym Icon.svg" alt="" />
+              <p>نادي رياضي</p>
+            </div>
+            <div class="col">
+              <img src="img/Stores Icon.svg" alt="" />
+              <p>محلات تجارية</p>
+            </div>
+            <div class="col">
+              <img src="img/Kids Icon.svg" alt="" />
+              <p>مساحة لعب للأطفال</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- gallery sectoins -->
+      <section id="gallery py-5">
+        <div class="container-fluid py-5">
+          <div class="row text-center text-primary">
+            <div class="col">
+              <p class="fs-3 fw-lighter">
+                مفهوم جديد للراحة يجمع بين البساطة وأناقة التصاميم الداخلية
+              </p>
+              <h2 class="h1 fw-bold">اكتشف دار المشاعر</h2>
+              <iframe width="100%" height="600" allow="autoplay; gyroscope; accelerometer"
+                      src="https://livetour.istaging.com/08b7139f-6b0c-4900-8fda-1c3ec9eb2d3d"
+                      frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section -->
+
+      <section id="contact" class="py-5">
+        <div class="container">
+          <div class="row justify-content-md-between justify-content-center g-5">
+            <div
+              class="
+                col-md-5
+                bg-white
+                text-center
+                rounded
+                py-3
+                px-5
+                rounded-0
+                shadow-lg
+              "
+            >
+              <h3 class="h1 my-4">سجلّ اهتمامك</h3>
+              <form action="https://formspree.io" method="POST">
+                <div class="row row-cols-1 g-5 justify-content-center">
+                  <div class="col">
+                    <input
+                      class="
+                        form-control
+                        border-0 border-bottom border-secondary
+                        rounded-0
+                      "
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="الإسم"
+                      required
+                    />
+                  </div>
+                  <div class="col">
+                    <input
+                      class="
+                        form-control
+                        border-0 border-bottom border-secondary
+                        rounded-0
+                      "
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="البريد لإلكتروني"
+                      required
+                    />
+                  </div>
+                  <div class="col mb-5">
+                    <input
+                      class="
+                        form-control
+                        border-0 border-bottom border-secondary
+                        rounded-0
+                      "
+                      type="text"
+                      id="phone"
+                      name="phone"
+                      placeholder="رقم التواصل"
+                      required
+                    />
+                  </div>
+                  <button
+                    class="
+                      btn btn-primary
+                      mt-2
+                      text-light
+                      w-75
+                      my-5
+                      rounded-0
+                      mt-3
+                    "
+                    type="submit"
+                  >
+                    <h4>احجز الآن</h4>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-6 text-primary ms-md-auto  pe-5">
+              <div class="m-auto w-75">
+                <p class="fs-1 fw-bold m-0 ">للتواصل</p>
+                <p class="telephone  fw-bolder  m-0" dir="ltr">800 123 3333</p>
+
+              <div class="bg-primary   text-center p-3 py-5 shadow">
+               <p class="text-white  fs-1 fw-bold">حمل الكتيّب</p>
+              <a class="bg-primary position-relative" href="img/Dar Al Mashaer_Digital Brochure_Arabic (3).pdf">
+                <img class=" img-fluid " src="img/download-button.svg" alt=""></a>
+              </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <footer id="footer" class="py-5">
+      <div class="container text-white pt-5">
+        <div class="row   text-center">
+          <div class=" col social text-white">
+            <a href="https://www.facebook.com/DarAlArkan" target="_blank" title="Facebook" class="facebook"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.twitter.com/DarAlArkan" target="_blank" title="Twitter" class="twitter"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/DarAlArkanOfficial" target="_blank" title="Instagram" class="instagram"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.linkedin.com/company/daralarkan" target="_blank" title="LinkedIn" class="linkedin"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://www.youtube.com/channel/UC3aqx8umsxfXGSw_pk2FLeg?sub_confirmation=1" target="_blank" title="Youtube" class="youtube"><i class="fab fa-youtube fa-2x"></i></a>
+            <a href="https://t.me/Dar_AlArkan" target="_blank" title="telegram" class="telegram"><i class="fab fa-telegram fa-2x"></i></a>
+				  </div>
+        </div>
+        <div class="row text-center justify-content-center pt-3">
+          <div class="col-md-3 ">
+          <a class="nav-link" href="https://www.daralarkan.com/ar/terms-conditions" target="_blanck">الشروط والأحكام</a>
+          </div>
+
+          <div class="col-md-3 ">
+           <a class="nav-link" href="https://www.daralarkan.com/ar/privacy-policy" target="_blanck">سياسة الخصوصية</a>
+          </div>
+
+          <div class="col-md-3">
+         <a class="nav-link" href="https://www.daralarkan.com/ar/fraud-warning-disclaimer" target="_blanck">إخلاء مسؤولية ضد عمليات الاحتيال</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+
+      // google /// 
+        window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-106594724-1');
+
+  ////// scroll to top ///
+      function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+       
+    </script>
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

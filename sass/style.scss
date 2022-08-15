@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;800&family=Poppins:wght@400;500;600&display=swap');
+@font-face {
+    font-family: "arkan";
+    src: url(../fonts/ArbFONTS-GE_Dinar_Two_Medium.otf);
+}
+@font-face {
+    font-family: "almashaer";
+    src: url(../fonts/ArbFONTS-GE_Dinar_Two_Light.otf);
+}
+@import "variables";
+@import "../bootstrap/scss/bootstrap.scss";
+@import "buttons";
+@import "main";
+     
